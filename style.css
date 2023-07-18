@@ -146,3 +146,14 @@ textarea
     box-shadow: 1px 1px 10px 2px #222;
     resize: none;
 }
+#myButton
+{
+    text-align: center;
+    border: 1px #222;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 200px;
+    background-color: #222;
+    box-shadow: 1px 1px 10px 2px #222;
+    color: #7e7e7e;
+}
