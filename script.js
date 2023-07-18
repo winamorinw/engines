@@ -4,5 +4,8 @@ function showTextField() {
   
     var parentElement = document.getElementById("myButton").parentNode;
     parentElement.replaceChild(textField, document.getElementById("myButton"));
+//Кнопка 2
+    var parentElement = document.getElementById("myButton2").parentNode;
+    parentElement.replaceChild(textField, document.getElementById("myButton2"));
   }
   
