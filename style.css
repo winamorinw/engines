@@ -50,8 +50,12 @@ body{
         width: max-content;
         margin:0;
         margin-right: 10px;
-
-
+}
+.selects_
+{
+    margin-top: 10px;
+    height: 26px;
+    width: 200px;
 }
 .newcard label{
     display: block;
@@ -69,4 +73,76 @@ body{
     background-color: #222;
     box-shadow: 1px 1px 10px 2px #222;
 
+}
+.maininfo_container
+{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#powerinput, #rpminput
+{
+    width: 95px;
+    margin: 0;
+}
+#rpmselect
+{
+    text-align: center;
+    color: #7e7e7e;
+    width: 95px;
+    height: 26px;
+    background-color: #222;
+    border: 0px solid #ffffff00;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px #222;
+
+}
+
+select {
+    text-align: center;
+    background-color: #222;
+    box-shadow: 1px 1px 10px 2px #222;
+    border: 0px solid #00000000;
+    border-radius: 5px;
+    color: #7e7e7e;
+
+}
+
+.inout_container
+{
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-around;
+}
+.input_container
+{
+    margin-top: 10px;
+}
+.input_container input[type="radio"] 
+{
+    width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.up_container
+{
+    display: flex;
+}
+.down_container
+{
+    display: flex;
+    justify-content: space-around;
+}
+textarea
+{
+    margin-top: 10px;
+    width: 200px;
+    background-color: #222;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px #222;
+    resize: none;
 }

@@ -12,20 +12,53 @@
         <div class="container_newcard">
             <div class="newcard">
                 <form action="#">
-                    <div class="pw_container">
-                        <label for="pw1">220</label>
-                        <input type="radio" name="ps" id="pw1">
-                        <label for="pw2">380</label>
-                        <input type="radio" name="ps" id="pw2">
+                    <select class="selects_" name="" id="">
+                        <option selected value="">3х фазный</option>
+                        <option value="">однофазный</option>
+                    </select>
+                    <div class="maininfo_container">
+                        <div class="leftside">
+                            <input placeholder="мощность" type="number" name="" id="powerinput">
+                        </div>
+                        <div class="rightside">
+                            <select name="" id="rpmselect">
+                                <option value="">3000</option>
+                                <option value="">1500</option>
+                                <option value="">1000</option>
+                                <option value="">750</option>
+                            </select>
+                        </div>
                     </div>
-                  
+                    <input placeholder="количество секции" type="number" name="" id="">
+                    <input placeholder="витки" type="number" name="" id="">
 
-                    <input placeholder="info" type="text" name="" id="">
-                    <input placeholder="info" type="text" name="" id="">
-                    <input placeholder="info" type="text" name="" id="">
-                    <input placeholder="info" type="text" name="" id="">
-                    <input placeholder="info" type="text" name="" id="">
-                    
+                    <select class="selects_"  name="" id="paralels">
+                        <option value="">1 паралель</option>
+                        <option value="">2 паралель</option>
+                        <option value="">3 паралель</option>
+                    </select>
+                    <input placeholder="пустых пазов" type="number" name="" id="">
+
+                    <!-- for Sergo -->
+                    <div class="div">+ провод</div>
+                    <div class="div">+ разные витки</div>
+
+                    <input placeholder="из" type="number" name="" id="">
+                    <input placeholder="вх" type="number" name="" id="">
+
+                    <div class="input_container">
+                        <div class="up_container">
+                            <label for="trst1">треугольник</label>
+                            <label for="trst2">звезда</label>
+                        </div>
+                        <div class="down_container">
+                            <input type="radio" name="trst" id="trst1">
+                            <input type="radio" name="trst" id="trst2">   
+                        </div>
+                    </div>
+                    <input placeholder="количество проводников" type="number" name="" id="">
+
+                    <textarea name="" id="" cols="22" rows="3"></textarea>
                 </form>
             </div>
         </div>
