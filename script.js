@@ -18,5 +18,8 @@ function CreateTextField() {
     let hiddeninput = document.querySelector('.hidden_input');
     hiddeninput.setAttribute('class', '');
     hiddeninput.focus();
+
+    
+
+
   }
-  

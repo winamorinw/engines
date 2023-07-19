@@ -23,9 +23,9 @@ new card input info
  int 3   витки  (w)
  int 1   паралели (a)
  int 1   количество пустых пазов (empty_cell)
- text5   провод
- float6  вес из (out_kg)
- float6  вес вх (int_kg)
+    *потом   провод (добавление еще одного через "+" )
+ double/float6   вес из (out_kg)
+ double/float6   вес вх (int_kg)
  char1   треугольник / звезда (YX)
  int3   количество проводников (U)
  text100 другое инфо        (info) 
