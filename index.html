@@ -13,6 +13,7 @@
         <div class="container_newcard">
             <div class="newcard">
                 <form action="#">
+                    <input type="file" name="photo" id="">
                     <select class="selects_" name="" id="">
                         <option selected value="">3х фазный</option>
                         <option value="">однофазный</option>
@@ -39,13 +40,21 @@
                         <option value="">3 паралель</option>
                     </select>
                     <input placeholder="пустых пазов" type="number" name="" id="">
+
                     <div id="knop"></div>
                     <button id="myButton" onclick="CreateTextField()">+ провод</button></br>
+                    <input placeholder="провод" type="text" name="w2" class="hidden_input">
+                    <input placeholder="провод" type="text" name="w1" class="hidden_input">
+                    <input placeholder="провод" type="text" name="w3" class="hidden_input">
+
                     <div id="knop2"></div>
                     <button id="myButton" onclick="CreateTextField2()">+ разные витки</button>
+                    <input placeholder="витки" type="text" name="w2" class="hidden_input">
+                    <input placeholder="витки" type="text" name="w1" class="hidden_input">
+                    <input placeholder="витки" type="text" name="w3" class="hidden_input">
+
                     <input placeholder="из" type="tel" name="" id="">
                     <input placeholder="вх" type="tel" name="" id="">
-
                     <div class="input_container">
                         <div class="up_container">
                             <label for="trst1">треугольник</label>
@@ -59,6 +68,7 @@
                     <input placeholder="количество проводников" type="number" name="" id="">
 
                     <textarea name="" id="" cols="22" rows="3"></textarea>
+                    <button type="submit">send</button>
                 </form>
             </div>
         </div>

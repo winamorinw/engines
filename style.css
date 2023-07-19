@@ -158,3 +158,8 @@ textarea
     box-shadow: 1px 1px 10px 2px #222;
     color: #000000
 }
+
+.hidden_input
+{
+    display: none;
+}
