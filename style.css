@@ -58,9 +58,15 @@ body{
     width: 200px;
 }
 .newcard label{
+    color: #222;
     display: block;
     width: 100%;
     text-align: center;
+    border: 1px solid #00000000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 0px #ffffff00;
+
 }
 .pw_container
 {
@@ -130,6 +136,11 @@ select {
 .up_container
 {
     display: flex;
+    justify-content: space-between;
+}
+.up_container label
+{
+    width: 49%;
 }
 .down_container
 {
