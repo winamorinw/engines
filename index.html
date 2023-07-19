@@ -12,36 +12,36 @@
     <div class="main_container">
         <div class="container_newcard">
             <div class="newcard">
-                <form action="#">
+                <form action="#" method="POST"enctype="multipart/form-data>
                     <input type="file" name="photo" id="">
-                    <select class="selects_" name="" id="">
-                        <option selected value="">3х фазный</option>
-                        <option value="">однофазный</option>
+                    <select class="selects_" name="phases" id="">
+                        <option selected value="3">3х фазный</option>
+                        <option value="1">однофазный</option>
                     </select>
                     <div class="maininfo_container">
                         <div class="leftside">
-                            <input placeholder="мощность" type="number" name="" id="powerinput">
+                            <input placeholder="мощность" type="float" name="kw" id="powerinput">
                         </div>
                         <div class="rightside">
-                            <select name="" id="rpmselect">
-                                <option value="">3000</option>
-                                <option value="">1500</option>
-                                <option value="">1000</option>
-                                <option value="">750</option>
+                            <select name="rpm" id="rpmselect">
+                                <option value="3000">3000</option>
+                                <option value="1500">1500</option>
+                                <option value="1000">1000</option>
+                                <option value="750">750</option>
                             </select>
                         </div>
                     </div>
                     <input placeholder="количество секции" type="number" name="" id="">
-                    <input placeholder="витки" type="number" name="" id="">
-
-                    <select class="selects_"  name="" id="paralels">
-                        <option value="">1 паралель</option>
-                        <option value="">2 паралель</option>
-                        <option value="">3 паралель</option>
+                    <input placeholder="количество проводников" type="number" name="" id="">
+                    <input placeholder="количество витков" type="number" name="w" id="">
+                    <input placeholder="пустых пазов" type="number" name="cell" id="">
+                    <select class="selects_"  name="paralels" id="paralels">
+                        <option value="1">1 паралель</option>
+                        <option value="2">2 паралель</option>
+                        <option value="3">3 паралель</option>
                     </select>
-                    <input placeholder="пустых пазов" type="number" name="" id="">
 
-                    <div id="knop"></div>
+                    <!-- <div id="knop"></div>
                     <button id="myButton" onclick="CreateTextField()">+ провод</button></br>
                     <input placeholder="провод" type="text" name="w2" class="hidden_input">
                     <input placeholder="провод" type="text" name="w1" class="hidden_input">
@@ -49,25 +49,24 @@
 
                     <div id="knop2"></div>
                     <button id="myButton" onclick="CreateTextField2()">+ разные витки</button>
-                    <input placeholder="витки" type="text" name="w2" class="hidden_input">
-                    <input placeholder="витки" type="text" name="w1" class="hidden_input">
-                    <input placeholder="витки" type="text" name="w3" class="hidden_input">
+                    <input placeholder="витки" type="text" name="u1" class="hidden_input">
+                    <input placeholder="витки" type="text" name="u2" class="hidden_input">
+                    <input placeholder="витки" type="text" name="u3" class="hidden_input"> -->
 
-                    <input placeholder="из" type="tel" name="" id="">
-                    <input placeholder="вх" type="tel" name="" id="">
+                    <input placeholder="из" type="tel" name="in" id="">
+                    <input placeholder="вх" type="tel" name="out" id="">
                     <div class="input_container">
                         <div class="up_container">
                             <label for="trst1">треугольник</label>
                             <label for="trst2">звезда</label>
                         </div>
                         <div class="down_container">
-                            <input type="radio" name="trst" id="trst1">
-                            <input type="radio" name="trst" id="trst2">   
+                            <input type="radio" name="trst" id="trst1" value="trst1">
+                            <input type="radio" name="trst" id="trst2" value="trst2">   
                         </div>
                     </div>
-                    <input placeholder="количество проводников" type="number" name="" id="">
 
-                    <textarea name="" id="" cols="22" rows="3"></textarea>
+                    <textarea name="info" id="" cols="22" rows="3"></textarea>
                     <button id="myButton" type="submit">Add</button>
                 </form>
             </div>
