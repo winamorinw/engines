@@ -13,13 +13,15 @@
         <div class="container_newcard">
             <div class="newcard">
                 <form action="#" method="get"enctype="multipart/form-data">
-                    <input type="file" name="photo" id="">
+                    <div class="photo_container">
+                        <input type="file" name="photo" id="photoinput">
+                    </div>
                     <select class="selects_" name="phases" id="">
                         <option selected value="3">3х фазный</option>
                         <option value="1">однофазный</option>
                     </select>
                     <select align="center" class="selects_" name="type" id="">
-                        <option selected value="air">AIR</option>
+                        <option selected value="air">АИР</option>
                         <option value="4a">4A</option>
                         <option value="inport">Импортный</option>
                     </select>
@@ -37,6 +39,7 @@
                             </select>
                         </div>
                     </div>
+                    <input placeholder="диаметр провода" type="float" name="" id="">
                     <input placeholder="количество секции" type="number" name="count_section" id="">
                     <input placeholder="количество проводников" type="number" name="number_of" id="">
                     <input placeholder="количество витков" type="number" name="w" id="provod">
@@ -78,7 +81,7 @@
                         </div>
                     </div>
 
-                    <textarea name="info" id="" cols="22" rows="3"></textarea>
+                    <textarea placeholder="Другая информация" name="info" id="" cols="22" rows="3"></textarea>
                     <button id="myButton" type="submit">Add</button>
                 </form>
             </div>

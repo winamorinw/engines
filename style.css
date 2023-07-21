@@ -48,6 +48,22 @@ body{
     background-color: #ffffff;
     box-shadow: 1px 1px 10px 2px #222;
 }
+.photo_container
+{
+    width: 100%;
+    display: flex;
+}
+#photoinput
+{
+    width: auto;
+    height: 40px;
+    display: none;
+    border: 1px solid #ccc;
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
 .newcard input[type="radio"] 
 {
         box-shadow: 0px 0px 0px 0px #ffffff00;
@@ -184,6 +200,7 @@ textarea
     box-shadow: 1px 1px 10px 2px #222;
     resize: none;
     color: black;
+    text-align: center;
 }
 #myButton
 {
