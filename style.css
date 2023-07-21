@@ -23,12 +23,14 @@ body{
 
 
 }
+.newcard, .newcard input, .newcard select, .newcard textarea, .newcard button
+{
+    width: 300px;
+}
 .newcard{
-    /* background-color: #444; */
-    width: 202px;
+
     height: max-content;    
     margin-top: 20px;
-    /* border: 1px solid rgb(44, 180, 44); */
     display: flex;
     flex-direction: column;
     align-items:start;
@@ -40,7 +42,7 @@ body{
     border: 1px #222;
     border-radius: 5px;
     margin-top: 10px;
-    width: 200px;
+    width: 300px;
     background-color: #ffffff;
     box-shadow: 1px 1px 10px 2px #222;
 }
@@ -87,16 +89,22 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+.maininfo_container input, .maininfo_container select
+{
+    width: auto;
+}
+
+
 #powerinput, #rpminput
 {
-    width: 95px;
+    /* width: 40%; */
     margin: 0;
 }
 #rpmselect
 {
     text-align: center;
     color: #000000;
-    width: 95px;
+    width: 130px;
     height: 26px;
     background-color: #ffffff;
     border: 0px solid #ffffff00;
@@ -169,7 +177,6 @@ textarea
     border: 1px #222;
     border-radius: 5px;
     margin-top: 10px;
-    width: 200px;
     background-color: rgb(255, 255, 255)fff;
     box-shadow: 1px 1px 10px 2px #222;
     color: #000000
