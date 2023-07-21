@@ -64,8 +64,8 @@
                     <input placeholder="вх" type="tel" name="out_kg" id="">
                     <div class="input_container">
                         <div class="up_container">
-                            <label for="trst1">треугольник</label>
-                            <label for="trst2">звезда</label>
+                            <label id="ppp" for="trst1" onclick="changeColor(1)">треугольник</label>
+                            <label id="ppp2" for="trst2" onclick="changeColor(2)">звезда</label>
                         </div>
                         <div class="down_container">
                             <input type="radio" name="triangle_star" id="trst1" value="trst1">
