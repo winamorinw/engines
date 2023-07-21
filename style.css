@@ -97,14 +97,14 @@ body{
 
 #powerinput
 {
-    /* width: 40%; */
+    width: 145px;
     margin: 0;
 }
 #rpmselect
 {
     text-align: center;
     color: #000000;
-    width: 130px;
+    width: 145px;
     height: 100%;
     background-color: #ffffff;
     border: 0px solid #ffffff00;
