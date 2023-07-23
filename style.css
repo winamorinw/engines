@@ -48,6 +48,10 @@ body{
     background-color: #ffffff;
     box-shadow: 1px 1px 10px 2px #222;
 }
+.phone_container
+{
+    
+}
 .photo_container
 {
     width: 100%;
@@ -141,7 +145,18 @@ select {
     color: #000000;
 
 }
-
+.link_project_m
+{
+    position: fixed;
+    top: 95%;
+    left: 20px;
+    display: block;
+    width: 100px;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #222;
+}
 .inout_container
 {
     margin-top: 1px;
@@ -216,4 +231,34 @@ textarea
 .hidden_input
 {
     display: none;
+}
+
+/* project_m */
+
+.total_container
+{
+    width: 400px;
+    justify-content: space-around;
+   
+    background-color: #373737b1;
+    
+}
+.main
+{
+    
+    
+}
+.counter_container
+{
+    background-color: #282828b1;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    padding: 2px;
+    border: 1px solid #2d58c6;
+}
+.buttomgroupe
+{
+
+    height: 100px;
 }
