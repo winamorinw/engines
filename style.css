@@ -7,11 +7,28 @@ body{
     width: 400px;
     background-color: #22222267;
     height: 880px;
-    border: 1px solid rgb(20, 20, 20);
+    height: 100%;
+    border: 2px solid #1f1f1f;
     border-radius: 10px;
     margin: 5px auto;
     
     display: flex;
+    flex-direction: column;
+}
+.search_container
+{
+
+    
+}
+.search_container input
+{
+    width: 300px;
+    height: 40px;
+}
+#search_input
+{
+    background-color: #333;
+
 }
 .container_newcard
 {
@@ -20,8 +37,9 @@ body{
     justify-content: center;
     display: flex;
     margin: 0 auto;
-
-
+    margin-top: 20px;
+    border: 0px solid #222;
+    border-radius: 0px 0px 5px 5px;
 }
 .newcard, .newcard input, .newcard select, .newcard textarea, .newcard button
 {
@@ -30,16 +48,17 @@ body{
 
 }
 .newcard{
-
     height: max-content;    
     margin-top: 20px;
+    margin-bottom: 20px;
+
     display: flex;
     flex-direction: column;
     align-items:start;
     flex-wrap: wrap;
-    
+
 }
-.newcard input{
+.main_container input{
     text-align: center;
     border: 1px #222;
     border-radius: 5px;
@@ -51,6 +70,10 @@ body{
 .phone_container
 {
     
+}
+#phoneinput
+{
+    margin-top: 0px;
 }
 .photo_container
 {
