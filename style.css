@@ -28,8 +28,20 @@ body{
 #search_input
 {
     background-color: #333;
-
+    transition: 1s;
+    border: 1px solid #bababa00;
 }
+#search_input:hover
+{
+    cursor: pointer;
+    border: 1px solid #bababa;
+    transition: 0.5s;
+}
+#search_input::placeholder
+{
+    color: #bababa;
+}
+
 .container_newcard
 {
     width: 100%;
